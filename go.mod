@@ -22,4 +22,6 @@ require (
 	modernc.org/sqlite v1.14.5
 )
 
+replace github.com/volatiletech/strmangle => github.com/crlssn/strmangle v0.0.5
+
 retract v4.9.0 // Generated code shows v4.8.6, messed up commit tagging and untidy go.mod
